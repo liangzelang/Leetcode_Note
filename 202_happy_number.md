@@ -12,6 +12,7 @@ Example: 19 is a happy number
 # 解析
 + <b>翻译</b>： 判断一个正整数是否为一个happy-number，一个正整数各位的平方和代替次正整数，不断迭代，如果迭代出1，则为happy-number，否则不是而且会出现无限循环。
 + <b>思路</b>：写一个函数分离正整数的各位，计算平方和并返回，主函数中需要有两类迭代，一类迭代每次迭代一次，一类迭代两次，这两如果出现无限重复循环肯定OK；循环结束的条件为迭代结果为1（这就是happy number）或者两类迭代结果相等（出现无限重复循环，不是happy number）。
+
 ## C/C++
 
 ```cpp
@@ -49,4 +50,4 @@ Example: 19 is a happy number
 ```
 
 ## Python
-##　Java
+## Java
