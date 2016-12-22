@@ -40,7 +40,7 @@ int* findDuplicates(int* nums, int numsSize, int* returnSize) {
 }
 ```
 ## Python
-##　Java
+## Java
 # 疑问
 不是很明白为什么一下代码在用例[4,3,2,7,8,2,3,1]，程序ok，但是用例[3,11,8,16,4,15,4,17,14,14,6,6,2,8,3,12,15,20,20,5]却失败。
 
